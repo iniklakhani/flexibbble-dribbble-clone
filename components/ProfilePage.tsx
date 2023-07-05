@@ -28,7 +28,7 @@ const ProfilePage = ({ user }: Props) => {
                   Follow Me
                 </Button>
               </Link>
-              <Link href={`mailto:${user?.email}`}>
+              <Link href={`mailto:emailishidden@flexibbble-self.vercel.app`}>
                 <Button>
                   <EnvelopeOpenIcon className="w-4 h-4 mr-2" />
                   Hire Me
