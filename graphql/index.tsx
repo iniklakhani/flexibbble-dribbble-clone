@@ -84,7 +84,7 @@ export const projectsQuery = `
     $endCursor: String
   ) {
     projectSearch(
-      first: 8
+      first: 1
       after: $endCursor
       filter: {
         category: { eq: $category }
