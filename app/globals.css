@@ -205,7 +205,7 @@ body {
 }
 
 .modal_wrapper {
-  @apply flex justify-start items-center flex-col absolute h-[95%] w-full bottom-0 bg-white rounded-t-3xl lg:px-40 px-8 pt-14 pb-72 overflow-auto;
+  @apply flex justify-start items-center flex-col absolute h-[calc(100%-80px)] w-[95%] bottom-0 bg-white rounded-t-3xl lg:px-40 px-8 pt-14 pb-36 overflow-auto left-[50%] translate-x-[-50%];
 }
 
 /* Navbar */
